@@ -9,12 +9,8 @@ This repository contains various small Java projects that cover different progra
 |---------|------------|------------------|  
 | **Rectangle Class (OOP Exercise)** | A simple Java program to create and manipulate a `Rectangle` class using object-oriented principles. | ✅✅✅ |  
 
-**Completion Status Legend:**  
-- ✅✅✅ → Fully completed project  
-- ✅✅⬜ → Works but needs improvements  
-- ✅⬜⬜ → Partially completed or still in progress  
 
 ## How to Use This Repository?  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/javaprojects.git
+   git clone https://github.com/Yousra0225/javaprojects.git

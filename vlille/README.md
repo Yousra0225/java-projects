@@ -33,3 +33,8 @@ La bibliothèque *Junit5* est utilisé pour réaliser les tests unitaires en jav
 	compilation de la classe BikeTest se fait avec la commande suivante: **javac -classpath junit-console.jar:classes test/vlille/BikeTest.java**  
 
 - Q11: On exécute les tests définis dans la classe BikeTest avec la commande: **java -jar junit-console.jar -classpath test:classes -select-class vlille.BikeTest**  
+- Q12: BikeSecondTest:  
+   1. Compilation : **javac -classpath junit-console.jar:classes test/vlille/BikeSecondTest.java**
+   2. Execution : **java -jar junit-console.jar -classpath test:classes -select-class vlille.BikeSecondTest**  
+   Lors de l'exécution de la classe de test BikeSecondTest, l'un des test a été echoué : celui de la méthode de test : *getColorReturnsDefaultColor()* : en fait la méthode **getColor()** de la classe *Bike* renvoit comme valeur **null** et non pas la valeur de l'attribut *color*.  
+   

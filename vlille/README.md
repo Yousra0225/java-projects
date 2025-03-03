@@ -20,3 +20,12 @@ Q1: j'ai recuperer dans le portail les fichiers necéssaire, et je les ai placer
          
 - Q08: j'ai rajouter la ligne : **package vlille;** dans les deux fichiers, puis je les ai compiler sans erreur.  
 
+# PREMIERS TESTS UNIATIRES :  
+La bibliothèque *Junit5* est utilisé pour réaliser les tests unitaires en java.  
+
+- Q09: le code du fichier *BikeTest* présente une classe de test pour la classe *Bike*, qui contient plusieurs méthodes de tests :  
+  1. modelAndIdAreCorrectAfterCreation(): pour vérifier que le **model** et **id** sont **correctes**.
+  2. testEqualsReturnsTrueWhenSameId(): tester de la méthode *equals()* si elle renvoie **true** si les **id** sont les **memes**. 
+  3. testEqualsReturnsFalseWhenNotSameId(): tester la méthode *equals()* s'elle renvoie **false** lorsque les id sont **différents**.  
+  4. testEqualsReturnsFalseWhenNotABikeOrNull(): tester si la méthode *equals()* renvoie **false** lorsque l'objet comparé **n'est pas** un **Bike**, ou est **Null**.  
+  

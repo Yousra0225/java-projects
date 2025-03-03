@@ -28,4 +28,8 @@ La bibliothèque *Junit5* est utilisé pour réaliser les tests unitaires en jav
   2. testEqualsReturnsTrueWhenSameId(): tester de la méthode *equals()* si elle renvoie **true** si les **id** sont les **memes**. 
   3. testEqualsReturnsFalseWhenNotSameId(): tester la méthode *equals()* s'elle renvoie **false** lorsque les id sont **différents**.  
   4. testEqualsReturnsFalseWhenNotABikeOrNull(): tester si la méthode *equals()* renvoie **false** lorsque l'objet comparé **n'est pas** un **Bike**, ou est **Null**.  
-  
+ 
+- Q10 : compilation de la classe Bike: déja fait dans la question *Q05*.  
+	compilation de la classe BikeTest se fait avec la commande suivante: **javac -classpath junit-console.jar:classes test/vlille/BikeTest.java**  
+
+- Q11: On exécute les tests définis dans la classe BikeTest avec la commande: **java -jar junit-console.jar -classpath test:classes -select-class vlille.BikeTest**  

@@ -7,8 +7,9 @@ This repository contains various small Java projects that cover different progra
 
 | Project | Description | Completion Status |  
 |---------|------------|------------------|  
+| **Java Basics**| Introduction to Java Programming: Compilation and Object-Oriented Manipulations|✅✅ |  
 | **Rectangle Class (OOP Exercise)** | A simple Java program to create and manipulate a `Rectangle` class using object-oriented principles. | ✅✅✅ |  
-| **Vlille** | structuring a bike-sharing management system in Java by applying concepts of packages, compilation, unit testing, and documentation.|✅✅☐|
+| **Vlille** | structuring a bike-sharing management system in Java by applying concepts of packages, compilation, unit testing, and documentation.|✅✅✅|
 
 
 ## How to Use This Repository?  

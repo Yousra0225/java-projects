@@ -1,0 +1,66 @@
+Exercice 01 :
+Q1: 
+Q2: consctrucuteurs : Tv(), Tv(String brand)
+    les attributs : boolean on, int channel, int soundVolume, string brand, String channel, maxSound 
+    les methodes : on(),get brand(),changeChannel(param),volumeUp(),volumeDown(),toString(), currentChannel()
+Q3:1) tv1: this.on = false;
+      this.brand = "unknown";
+      this.channel = 5; // 
+      this.soundVolume = 3; 
+      this.maxSound ;
+     de meme pour tv2
+     
+   2) le resultat de l’appel tv1.currentChannel() est : 5
+   3) le resultat de ’appel tv1.on() : true : la methode on() à fait une action sur la'ttribut    "on" de lobjet Tv et il a retouner en valeur "on"
+   les nouvelles valeurs que porte tv1 sont : 
+      this.on = true;
+      this.brand = "unknown";
+      this.channel = 5; // 
+      this.soundVolume = 3; 
+      this.maxSound ;
+   
+   4) le resultat de l’appel tv1.volumeUp() est : 4 car on a verifier les deux conditions dans la methode volumeUp (this.on prend la valeure true car on a la changer avec la methode on()
+      les nouvelles valeurs que porte tv1 sont :	
+	      tv1: this.on = true;
+	      this.brand = "unknown";
+	      this.channel = 5;  
+	      this.soundVolume = 4; 
+	      this.maxSound ;
+      	
+   5) en repetant la meme question sur tv2 on obtient rien comme resultat car en verifiant les conditions de la methode volumeUp(), on trouve que la premiere condition n'est pas verifier car this.on vaut false 	
+   
+   
+   
+EXERCICE 02 :
+Q1: en executant la commande "javac Tv.java" on constate qu'un nouveau fichier s'est creer "Tv.class"
+Q2  le fichier contient le code source  java compiler en une forme binaire, il contient egalement des informations sur les atrributs, les methodes...
+Q3 supprimant le fichier Tv.class avec la commande "rm"
+Q3.1 Compilant le fichier Tv.java avec la commande "javac"
+Q3.2 une erreur s'est afficher dans le terminal après l'execution du fichier Tv.java
+Q3.3 l'erreur se situe à la ligne 124, avec le message " error: ';' expected" donc un ";" manquant.
+Q3.4 par consequent, comment il y avait une erreur qui empeche le fichier de s'éxecuté correctement ; aucun fichier Tv.class n'a été créé.
+Q3.5 Après avoir corriger l'erreur, la compilation s'est fait correctement et un fichier Tv.class s'est créé
+
+Q4.1 suprimant le fichier Tv.class avec la commande "rm"
+Q4.2 on execute la commande "javac -sourcepath src src/Tv.java -d classes"
+Q4.3 apres l'éxecution de la commande précédente on remarque qu'un nouveau dossier s'est créé "classes"
+Q4.4 le dossier "classes" contient le fichier "Tv.class", qui est le resultat de la compilation du fichier Tv.java
+
+EXERCICE 03:
+1 
+2 compilant la class TvMain avec la commande javac -sourcepath src src/TvMain.java -d classes
+3 executant le fichier TvMain.java avec la commande java -classpath classes TvMain
+
+EXERICE 04:
+dans cette exercice on a vu comment le JVM pris en compte seulement les fichiers class , qui sont les resultats de la compilation 
+des fichiers java, le JVM c'est l'environement d'execution du code java, l'execution commence à faire appel à la methode main de la 
+class passer en parametre pour executer son corps.
+
+EXERCICE 05:
+partie 01
+Q1: les attribut des objects Book : author: author (car author c'est une class), title:String , publicationYear:int
+Q2: la structure de donées qui permet de mémoriser les differebrs objects Book dans un object library est le tableau theBooks
+Q3: les méthodes de la classe library: addBokk(Book book),displayBooks(), getNbBooks(), getBook()
+partie 02 
+Q1: compilant les trois class comme on a vu precedement 
+Q2: 

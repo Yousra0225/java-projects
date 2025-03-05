@@ -2,7 +2,7 @@ package vlille;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import vlille.*;
+import vlille.Bike;
 import vlille.util.BikeModel;
 
 public class BikeTest {
